@@ -1,4 +1,4 @@
-# Advent Of Code 2022
+# Advent Of Code 2022 🧝
 
 This repository was generated using the [Advent of Code Kotlin Template][template] by JetBrains and will house my solutions for the puzzles in this year's Advent of Code[^aoc] Challenge. I'll be using [Kotlin][kotlin] this year and hope to get further than I did [last year][lastyearAoC] - but no promises! Can sometimes get hard with work and other general life stuff. 
 
