@@ -19,9 +19,9 @@ fun main() {
 
 // helper function(s)
 fun sharedItemTypePriority(sections: List<String>): Int {
-  val itemSets = sections.map { it.toSet() }
-  var shared = itemSets.first()
-  itemSets.drop(1).forEach { shared = shared intersect it }
+  val itemTypeSets = sections.map { it.toSet() }
+  var shared = itemTypeSets.first()
+  itemTypeSets.drop(1).forEach { shared = shared intersect it }
   val sharedItemType = shared.single()
   return sharedItemType.code - if (sharedItemType.isUpperCase()) '&'.code else '`'.code
 }
